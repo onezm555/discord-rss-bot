@@ -1,17 +1,15 @@
 {
   "name": "discord-rss-bot",
   "version": "1.0.0",
+  "description": "Bot for fetching RSS Feed and posting to Discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "discord.js": "^14.20.0",
-    "dotenv": "^16.5.0",
-    "rss-parser": "^3.13.0"
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0",
+    "rss-parser": "^3.12.0",
+    "node-fetch": "^3.0.0"
   }
 }
